@@ -11,10 +11,6 @@ jobs:
 
       - run: npm install
       - run: npm test
-<<<<<<< HEAD
-      - run: npm publish --access public
-=======
->>>>>>> cc6872facf31809f6912ef746ebfeb7f2eb5e7a9
 
       - name: Release
         env:
