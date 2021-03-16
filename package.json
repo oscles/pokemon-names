@@ -1,0 +1,26 @@
+{
+  "name": "pokemon-names",
+  "version": "1.0.0",
+  "description": "Get random pokemon names",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscles/pokemon-names.git"
+  },
+  "keywords": [
+    "random",
+    "pokemon"
+  ],
+  "author": "Osnaider Miranda C. <osnaiderluis94@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/oscles/pokemon-names/issues"
+  },
+  "homepage": "https://github.com/oscles/pokemon-names#readme",
+  "dependencies": {
+    "unique-random-array": "2.0.0"
+  }
+}
