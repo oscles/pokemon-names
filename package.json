@@ -30,12 +30,18 @@
     "@types/jest": "26.0.20",
     "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
+    "husky": "4",
     "jest": "26.6.3",
     "semantic-release": "^17.4.2"
   },
   "config": {
     "commitizen": {
       "path": "cz-conventional-changelog"
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test"
     }
   }
 }
