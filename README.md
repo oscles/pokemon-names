@@ -1,1 +1,1 @@
-# pokemons-name
+# pokemon-names
