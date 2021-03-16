@@ -7,6 +7,7 @@
     "commit": "cz",
     "test": "jest",
     "test:watch": "jest --watchAll",
+    "test:coverage": "jest --coverage",
     "semantic-release": "semantic-release"
   },
   "repository": {
@@ -41,7 +42,17 @@
   },
   "husky": {
     "hooks": {
-      "pre-commit": "npm test"
+      "pre-commit": "npm test && npm run test:coverage"
+    }
+  },
+  "jest": {
+    "coverageThreshold": {
+      "global": {
+        "branches": 90,
+        "functions": 90,
+        "statements": 90,
+        "lines": 90
+      }
     }
   }
 }
