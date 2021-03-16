@@ -4,6 +4,7 @@
   "description": "Get random pokemon names",
   "main": "src/index.js",
   "scripts": {
+    "commit": "cz",
     "test": "jest --watchAll",
     "semantic-release": "semantic-release"
   },
@@ -26,7 +27,14 @@
   },
   "devDependencies": {
     "@types/jest": "26.0.20",
+    "commitizen": "4.2.3",
+    "cz-conventional-changelog": "3.3.0",
     "jest": "26.6.3",
     "semantic-release": "^17.4.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-conventional-changelog"
+    }
   }
 }
