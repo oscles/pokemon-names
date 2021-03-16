@@ -6,7 +6,7 @@ const getRandomItem = uniqueRandomArray(pokemonNames);
 function random(number) {
   if (number) {
     const randomItems = [];
-    for (let i = 1; i < number; i++) {
+    for (let i = 0; i < number; i++) {
       randomItems.push(getRandomItem());
     }
     return randomItems;
