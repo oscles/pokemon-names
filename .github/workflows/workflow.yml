@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+<<<<<<< HEAD
       - devel
       - qa
   pull_request:
@@ -11,6 +12,8 @@ on:
       - main
       - devel
       - qa
+=======
+>>>>>>> 1fa4a6f6cad32a88d9ecdda5c9eb7de468234fb3
 
 jobs:
   test:
