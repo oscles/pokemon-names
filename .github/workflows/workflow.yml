@@ -1,8 +1,16 @@
 name: Release
+
 on:
   push:
     branches:
-      - master
+      - main
+      - devel
+      - qa
+  pull_request:
+    branches:
+      - main
+      - devel
+      - qa
 
 jobs:
   test:
