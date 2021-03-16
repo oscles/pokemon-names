@@ -24,5 +24,11 @@ describe('poke-names', () => {
       const randomPokemon = pokemonNames.random();
       expect(pokemonNames.all).toContain(randomPokemon);
     });
+
+    test('should to return an array of random if passed a number', () => {
+      const randomItems = pokemonNames.random(3);
+      expect(randomItems).toHaveLength(3);
+      randomItems.forEach((item) => expect(pokemonNames.all).toContain(item));
+    });
   });
 });
