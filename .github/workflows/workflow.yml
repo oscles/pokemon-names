@@ -9,8 +9,17 @@ jobs:
         with:
           node-version: '12'
       - run: npm install
-      - run: npm test
+
+      - name: Install dependencies
+        run: npm ci
+      
+      - name: Running Test
+        run: npm test
+        env:
+          CI: true
+
       - name: Release
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
         run: npx semantic-release
