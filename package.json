@@ -17,7 +17,8 @@
   },
   "files": [
     "dist",
-    "README"
+    "README",
+    "CHANGELOG.md"
   ],
   "repository": {
     "type": "git",
