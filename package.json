@@ -1,15 +1,24 @@
 {
   "name": "poke-names",
-  "version": "1.1.4",
+  "version": "0.0.0-semantically-released",
   "description": "Get random pokemon names",
-  "main": "src/index.js",
+  "main": "dist/index.js",
   "scripts": {
+    "babel": "babel src -d dist --source-maps --copy-files",
+    "pre:build": "rimraf dist",
+    "post:build": "rimraf dist/**/__tests__",
+    "build": "npm run pre:build && npm run babel && npm run post:build",
+    "watch": "npm run babel -- --watch",
     "commit": "cz",
     "test": "jest",
     "test:watch": "jest --watchAll",
     "test:coverage": "jest --coverage",
-    "semantic-release": "semantic-release"
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
+  "files": [
+    "dist",
+    "README"
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/oscles/pokemon-names.git"
@@ -28,11 +37,15 @@
     "unique-random-array": "2.0.0"
   },
   "devDependencies": {
+    "@babel/cli": "7.13.10",
+    "@babel/core": "7.13.10",
+    "@babel/preset-env": "7.13.10",
     "@types/jest": "26.0.20",
     "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
     "husky": "4",
     "jest": "26.6.3",
+    "rimraf": "3.0.2",
     "semantic-release": "^17.4.2"
   },
   "config": {

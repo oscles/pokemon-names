@@ -1,4 +1,4 @@
-const pokemonNames = require('../index');
+import pokemonNames from '../';
 
 describe('poke-names', () => {
   describe('all', () => {

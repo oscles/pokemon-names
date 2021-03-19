@@ -1,5 +1,5 @@
-const uniqueRandomArray = require('unique-random-array');
-const pokemonNames = require('./pokemon-names.json');
+import uniqueRandomArray from 'unique-random-array';
+import pokemonNames from './pokemon-names.json';
 
 const getRandomItem = uniqueRandomArray(pokemonNames);
 
@@ -14,7 +14,4 @@ function random(number) {
   return getRandomItem();
 }
 
-module.exports = {
-  all: pokemonNames,
-  random,
-};
+export default { all: pokemonNames, random };
