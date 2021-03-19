@@ -34,8 +34,8 @@ jobs:
         with:
           node-version: 12
       - name: Install dependencies
-        env:
-          # HUSKY_SKIP_INSTALL: 1
+        # env:
+        # HUSKY_SKIP_INSTALL: 1
 
       - run: npm install
       - run: npm test
