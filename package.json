@@ -1,13 +1,13 @@
 {
   "name": "poke-names",
-  "version": "2.2.0",
+  "version": "2.0.3",
   "description": "Get random pokemon names",
   "main": "dist/index.js",
   "scripts": {
     "babel": "babel src -d dist --source-maps --copy-files",
     "pre:build": "rimraf dist",
     "post:build": "rimraf dist/**/__tests__",
-    "build": "npm run pre:build && npm run babel",
+    "build": "npm run pre:build && npm run babel && npm run post:build",
     "watch": "npm run babel -- --watch",
     "commit": "cz",
     "test": "jest",
