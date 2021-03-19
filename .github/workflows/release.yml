@@ -4,8 +4,7 @@ on:
   push:
     branches:
       - main
-      - devel
-      - qa
+
   pull_request:
     branches:
       - main
@@ -34,6 +33,9 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: 12
+      - name: Install dependencies
+        env:
+          # HUSKY_SKIP_INSTALL: 1
 
       - run: npm install
       - run: npm test
@@ -42,4 +44,4 @@ jobs:
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: npm semantic-release
+        run: npx semantic-release
