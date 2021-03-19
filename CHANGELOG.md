@@ -1,3 +1,10 @@
+## [2.0.3](https://github.com/oscles/pokemon-names/compare/v2.0.2...v2.0.3) (2021-03-19)
+
+
+### Bug Fixes
+
+* **package.json:** error version ([2475852](https://github.com/oscles/pokemon-names/commit/2475852181241214269b3f10d48c1f3c9bdcfd54))
+
 ## [2.0.2](https://github.com/oscles/pokemon-names/compare/v2.0.1...v2.0.2) (2021-03-19)
 
 
