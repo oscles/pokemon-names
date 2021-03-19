@@ -5,8 +5,8 @@
     "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     ["@semantic-release/npm", {
-      "tarballDir": "release"
-    }]
+      "tarballDir": "dist"
+    }],
     "@semantic-release/git",
     "@semantic-release/github"
 }
