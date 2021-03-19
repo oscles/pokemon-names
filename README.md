@@ -1,4 +1,4 @@
-# pokemon-name
+# poke-names
 
 ![release date](https://img.shields.io/github/release-date/oscles/pokemon-names)
 [![release](https://img.shields.io/github/v/release/oscles/pokemon-names)](https://github.com/oscles/pokemon-names/releases)
@@ -26,16 +26,16 @@ yarn add poke-names
 
 ```javascript
 const pokemonNames = require('poke-names');
-const allPokemonNames = names.all;
-const randomPokemonName = names.random();
-const threeRandomPokemonNames = names.random(3);
+const allPokemonNames = pokemonNames.all;
+const randomPokemonName = pokemonNames.random();
+const threeRandomPokemonNames = pokemonNames.random(3);
 ```
 
 ### Project Setup
 
-This project assumes you have [NodeJS v6](http://nodejs.org/) or greater installed. You should
-also have [npm v3](https://www.npmjs.com/) or greater installed as well (this comes packaged
-with Node 6). You'll also need a recent version of [git](https://git-scm.com/) installed
+This project assumes you have [NodeJS v10](http://nodejs.org/) or greater installed. You should
+also have [npm v6](https://www.npmjs.com/) or greater installed as well (this comes packaged
+with Node 10). You'll also need a recent version of [git](https://git-scm.com/) installed
 as well.
 
 You may have come to this project from different varying sources. There are a
