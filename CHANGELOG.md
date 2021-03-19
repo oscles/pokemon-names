@@ -1,3 +1,10 @@
+## [2.0.2](https://github.com/oscles/pokemon-names/compare/v2.0.1...v2.0.2) (2021-03-19)
+
+
+### Bug Fixes
+
+* **.releaserc:** create dist folder ([268c513](https://github.com/oscles/pokemon-names/commit/268c513340a83a84f1f81a65af77f28db56e7bcd))
+
 ## [2.0.1](https://github.com/oscles/pokemon-names/compare/v2.0.0...v2.0.1) (2021-03-19)
 
 
