@@ -1,3 +1,11 @@
+# [2.4.0](https://github.com/oscles/pokemon-names/compare/v2.3.0...v2.4.0) (2021-03-19)
+
+
+### Features
+
+* **package.json:** remove old version ([1e6a4b7](https://github.com/oscles/pokemon-names/commit/1e6a4b76bc8e15a135125e3e9e2e4a822fe15243))
+* **pokemon.json:** add new pokemon legendary ([5339fa9](https://github.com/oscles/pokemon-names/commit/5339fa9a42043dccffb9d6b8d3f72f7ace30c721))
+
 # [2.3.0](https://github.com/oscles/pokemon-names/compare/v2.2.0...v2.3.0) (2021-03-19)
 
 
