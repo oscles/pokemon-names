@@ -7,7 +7,7 @@
     "babel": "babel src -d dist --source-maps --copy-files",
     "pre:build": "rimraf dist",
     "post:build": "rimraf dist/**/__tests__",
-    "build": "npm run pre:build && npm run babel && npm run post:build",
+    "build": "npm run pre:build && npm run babel",
     "watch": "npm run babel -- --watch",
     "commit": "cz",
     "test": "jest",
