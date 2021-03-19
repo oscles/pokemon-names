@@ -1,3 +1,10 @@
+# [2.2.0](https://github.com/oscles/pokemon-names/compare/v2.1.0...v2.2.0) (2021-03-19)
+
+
+### Features
+
+* **pokemon.json:** add new pokemon ([1522eab](https://github.com/oscles/pokemon-names/commit/1522eab7d2bf70189f9e4302a1feeff2c8e4a91b))
+
 # [2.1.0](https://github.com/oscles/pokemon-names/compare/v2.0.3...v2.1.0) (2021-03-19)
 
 
