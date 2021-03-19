@@ -1,3 +1,11 @@
+# [2.1.0](https://github.com/oscles/pokemon-names/compare/v2.0.3...v2.1.0) (2021-03-19)
+
+
+### Features
+
+* setup release ([123fade](https://github.com/oscles/pokemon-names/commit/123fadea55f7dcec3e4c0ed02d6c73553216fd4b))
+* **releaserc:** setup releaserc ([8c7a61a](https://github.com/oscles/pokemon-names/commit/8c7a61ad37bb1e0389667dd210ba2ee6da60ba17))
+
 ## [2.0.3](https://github.com/oscles/pokemon-names/compare/v2.0.2...v2.0.3) (2021-03-19)
 
 
