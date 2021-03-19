@@ -1,3 +1,10 @@
+# [2.3.0](https://github.com/oscles/pokemon-names/compare/v2.2.0...v2.3.0) (2021-03-19)
+
+
+### Features
+
+* **pokemon.json:** remove pokemon test ([0680dfb](https://github.com/oscles/pokemon-names/commit/0680dfb90649367b09fdce949ae044bc24ecd196))
+
 # [2.2.0](https://github.com/oscles/pokemon-names/compare/v2.1.0...v2.2.0) (2021-03-19)
 
 
