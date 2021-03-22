@@ -14,4 +14,4 @@ function random(number) {
   return getRandomItem();
 }
 
-export default { all: pokemonNames, random };
+module.exports = { all: pokemonNames, random };

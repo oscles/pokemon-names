@@ -1,14 +1,16 @@
 {
   "name": "poke-names",
-
   "version": "2.3.0",
   "description": "Get random pokemon names",
   "main": "dist/index.js",
   "scripts": {
-    "babel": "babel src -d dist --source-maps --copy-files",
-    "pre:build": "rimraf dist",
-    "post:build": "rimraf dist/**/__tests__",
-    "build": "npm run pre:build && npm run babel && npm run post:build",
+    "rm:dist": "rimraf dist",
+    "rm:test": "rimraf dist/**/__tests__",
+    "build": "npm-run-all --parallel build:*",
+    "build:babel": "babel src -d dist --source-maps --copy-files",
+    "build:main": "npm run rm:dist && npm run build:babel && npm run rm:test",
+    "build:umd": "webpack --output-filename=index.umd.js --mode=development",
+    "build:umd.min": "webpack --output-filename=index.umd.min.js --mode=production",
     "watch": "npm run babel -- --watch",
     "commit": "cz",
     "test": "jest",
@@ -18,8 +20,7 @@
   },
   "files": [
     "dist",
-    "README",
-    "CHANGELOG.md"
+    "README"
   ],
   "repository": {
     "type": "git",
@@ -45,12 +46,16 @@
     "@semantic-release/changelog": "5.0.1",
     "@semantic-release/git": "9.0.0",
     "@types/jest": "26.0.20",
+    "babel-loader": "8.2.2",
     "commitizen": "4.2.3",
     "cz-conventional-changelog": "3.3.0",
     "husky": "4",
     "jest": "26.6.3",
+    "npm-run-all": "4.1.5",
     "rimraf": "3.0.2",
-    "semantic-release": "^17.4.2"
+    "semantic-release": "^17.4.2",
+    "webpack": "5.27.2",
+    "webpack-cli": "4.5.0"
   },
   "config": {
     "commitizen": {
