@@ -1,3 +1,10 @@
+# [2.5.0](https://github.com/oscles/pokemon-names/compare/v2.4.0...v2.5.0) (2021-03-22)
+
+
+### Features
+
+* **pokemon-names.json:** add Frosmoth pokemon ([b789642](https://github.com/oscles/pokemon-names/commit/b789642beb7863162ae53f572fbce07a0caff0e4)), closes [#5](https://github.com/oscles/pokemon-names/issues/5)
+
 # [2.4.0](https://github.com/oscles/pokemon-names/compare/v2.3.0...v2.4.0) (2021-03-19)
 
 
