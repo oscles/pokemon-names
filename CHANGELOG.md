@@ -1,3 +1,10 @@
+# [2.7.0](https://github.com/oscles/pokemon-names/compare/v2.6.0...v2.7.0) (2021-03-25)
+
+
+### Features
+
+* **pokemon-names:** add new pokemons ([65bce18](https://github.com/oscles/pokemon-names/commit/65bce18c3a28a2cb059ed246b21876b3b20aa271)), closes [#7](https://github.com/oscles/pokemon-names/issues/7)
+
 # [2.6.0](https://github.com/oscles/pokemon-names/compare/v2.5.0...v2.6.0) (2021-03-23)
 
 

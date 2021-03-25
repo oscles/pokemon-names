@@ -1,6 +1,6 @@
 {
   "name": "poke-names",
-  "version": "2.6.0",
+  "version": "2.7.0",
   "description": "Get random pokemon names",
   "main": "dist/index.js",
   "scripts": {
